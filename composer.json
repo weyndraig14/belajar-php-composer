@@ -1,0 +1,27 @@
+{
+    "name": "agung/php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+
+    "autoload": {
+        "psr-4": {
+            "XsX\\" : "src/"
+        }
+    },
+    "repositories": [ {
+            "type": "vcs",
+            "url": "https://github.com/weyndraig14/belajar-php-composer-library"
+        }    
+    ],
+
+    "require": {
+        "php" : ">=8.0",
+        "agung/belajar-php-composer-hello" : "2.0.0",
+        "monolog/monolog" : "2.2.0"
+
+    },
+    "scripts": {
+        "jalankan-server" : "php -S localhost:8080",
+        "hello" : "echo 'Hello World'"
+    }
+}
