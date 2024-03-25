@@ -10,7 +10,7 @@
     },
     "repositories": [ {
             "type": "vcs",
-            "url": "https://github.com/weyndraig14/belajar-php-composer-library"
+            "url": "https://github.com/weyndraig/belajar-php-composer-library"
         }    
     ],
 
