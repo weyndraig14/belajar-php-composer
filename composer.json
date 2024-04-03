@@ -1,27 +1,19 @@
 {
-    "name": "agung/php-composer",
+    "name": "programmerzamannow/belajar-php-composer",
     "description": "Belajar PHP Composer",
     "type": "project",
-
     "autoload": {
         "psr-4": {
-            "XsX\\" : "src/"
+            "Programmerzamannow\\BelajarPhpComposer\\": "src/"
         }
     },
-    "repositories": [ {
-            "type": "vcs",
-            "url": "https://github.com/weyndraig/belajar-php-composer-library"
-        }    
+    "authors": [
+        {
+            "name": "Agung Timotius Sinaga",
+            "email": "agungsinaga2007@gmail.com"
+        }
     ],
-
     "require": {
-        "php" : ">=8.0",
-        "agung/belajar-php-composer-hello" : "2.0.0",
-        "monolog/monolog" : "2.2.0"
-
-    },
-    "scripts": {
-        "jalankan-server" : "php -S localhost:8080",
-        "hello" : "echo 'Hello World'"
+        "monolog/monolog" : "3.5.0"
     }
 }

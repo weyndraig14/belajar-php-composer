@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use XsX\Data\People;
+use Programmerzamannow\Data\People;
 
 $people = new People("Agung");
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace XsX\Data;
+namespace Programmerzamannow\Data;
 
 class People
 {
